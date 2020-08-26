@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633397383678",
+    "firebase_url": "https://hosteltaker-c8e37.firebaseio.com",
+    "project_id": "hosteltaker-c8e37",
+    "storage_bucket": "hosteltaker-c8e37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633397383678:android:7cd91d100cf2255728f0af",
+        "android_client_info": {
+          "package_name": "com.example.hosteltaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633397383678-lckbntd2cv8f3ekhds3p7mekicpmlveg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hosteltaker",
+            "certificate_hash": "ee0e8f52cb85b2b20f997fd5dcc413fd8639d08c"
+          }
+        },
+        {
+          "client_id": "633397383678-hnsgunbt8g2h78rrgt6mqnqvg9ft1vjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkDdK2kNX0LbIiu-QA-Kc15qE50sYK9IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633397383678-hnsgunbt8g2h78rrgt6mqnqvg9ft1vjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

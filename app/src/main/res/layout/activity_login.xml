@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="65"
+        android:src="@drawable/logo_transparent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="35">
+
+        <EditText
+            android:id="@+id/phone_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_edit_box"
+            android:text="+91"
+            android:padding="12dp"
+            android:minHeight="45dp"
+            android:layout_marginLeft="20dp"
+            android:maxLength="3"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your  Mobile NO."
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/mobile"
+            android:padding="12dp"
+            android:background="@drawable/square_edit_box"
+            android:minHeight="45dp"
+            android:layout_toEndOf="@id/phone_code"
+            android:gravity="center"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_toRightOf="@id/phone_code" />
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="30dp"
+            android:background="@color/toolbar_color"
+            android:textColor="#F6F5F8"
+            android:layout_below="@+id/mobile"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:layout_marginTop="35dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
